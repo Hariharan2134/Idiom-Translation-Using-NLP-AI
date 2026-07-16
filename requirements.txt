@@ -1,0 +1,20 @@
+# Frontend
+streamlit>=1.38
+
+# Core
+pandas>=2.2
+openpyxl>=3.1
+python-dotenv>=1.0
+
+# NVIDIA NIM (OpenAI-compatible client) — only needed if you use an API key
+openai>=1.40
+
+# Local fallback (no API key) — translation
+deep-translator>=1.11
+
+# Local fallback (no API key) — paraphrasing
+# These are heavy (torch download ~700MB+). Comment out if you'll always use
+# an NVIDIA API key instead.
+transformers>=4.44
+torch>=2.3
+sentencepiece>=0.2
