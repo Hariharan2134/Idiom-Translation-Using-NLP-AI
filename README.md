@@ -38,7 +38,7 @@ right backend automatically.
 ## Setup
 
 ```bash
-git clone <this-repo>
+git clone Idiom-Translation-Using-NLP-AI
 cd idiom-replacer
 python -m venv venv && source venv/bin/activate   # optional but recommended
 pip install -r requirements.txt
